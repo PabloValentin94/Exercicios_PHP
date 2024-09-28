@@ -1,0 +1,50 @@
+@import url("./Global.css");
+
+h1 {
+
+    text-align: center;
+    margin-bottom: 25px;
+
+}
+
+#exercicios {
+
+    width: 500px;
+    background-color: transparent;
+    border: 1px solid var(--text-color);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+
+}
+
+#exercicios .exercicio {
+
+    height: 75px;
+    width: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: 1px solid var(--text-color);
+    border-radius: 50%;
+    color: var(--text-color);
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.5s;
+
+}
+
+#exercicios .exercicio:hover {
+
+    background-color: var(--text-color);
+    box-shadow: 0px 0px 25px var(--text-color);
+    color: var(--page-color);
+
+}

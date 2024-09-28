@@ -1,0 +1,51 @@
+@import url("../../Assets/CSS/Global.css");
+
+body {
+
+    gap: 20px;
+
+}
+
+legend {
+
+    text-align: center;
+
+}
+
+table {
+
+    padding: 5px;
+    border-spacing: 10px;
+
+}
+
+table th, table td {
+
+    width: 250px;
+    border: 1px solid #000000;
+    text-align: center;
+    padding: 5px;
+
+}
+
+a {
+
+    background-color: transparent;
+    border: 1px solid var(--text-color);
+    border-radius: 50px;
+    font-size: 15px;
+    font-weight: bolder;
+    color: var(--text-color);
+    text-decoration: none;
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+
+a:hover {
+
+    background-color: var(--text-color);
+    color: var(--page-color);
+
+}

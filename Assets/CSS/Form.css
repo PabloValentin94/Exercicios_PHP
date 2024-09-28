@@ -1,0 +1,72 @@
+form, form div {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+form {
+
+    flex-direction: column;
+    border: 2px solid var(--text-color);
+    border-radius: 15px;
+    padding: 25px;
+
+}
+
+form label {
+
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--text-color);
+    text-align: center;
+    cursor: text;
+
+}
+
+form input {
+
+    background-color: transparent;
+    outline: none;
+    border: 1px solid var(--text-color);
+    font-size: 20px;
+    text-align: center;
+    padding: 5px;
+    cursor: pointer;
+
+}
+
+form input:focus {
+
+    cursor: text;
+
+}
+
+form div a {
+
+    text-decoration: none;
+
+}
+
+form div a, form div button {
+
+    background-color: transparent;
+    border: 1px solid var(--text-color);
+    border-radius: 50px;
+    font-size: 15px;
+    font-weight: bolder;
+    color: var(--text-color);
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+
+form div a:hover, form div button:hover {
+
+    background-color: var(--text-color);
+    color: var(--page-color);
+
+}
