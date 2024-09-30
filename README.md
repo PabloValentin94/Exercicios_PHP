@@ -1,6 +1,8 @@
 # Conceitos Abordados:
 
-- Desenvolvimento Web Simples (HTML e CSS);
+- Front-End Simples (HTML e CSS);
+
+- Back-End Simples (PHP);
 
 - Lógica de Programação.
 
